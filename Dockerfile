@@ -5,4 +5,5 @@ WORKDIR /home/app
 COPY . .
 RUN npm install
 EXPOSE 3000
+# Run application with nodemon
 CMD ["nodemon", "index.js"]
